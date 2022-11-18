@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="cart-simple" transform="translate(-1 -2)">
+    <path id="Path_18" data-name="Path 18" d="M10.105,28.285A.9.9,0,0,0,11,29H36.454a.9.9,0,0,0,.895-.715L40.985,9.124a.843.843,0,0,0-.2-.713.929.929,0,0,0-.7-.314H9.961L9.076,3.431A1.8,1.8,0,0,0,7.288,2H1V5.484H5.77Z" fill="#212121"/>
+    <circle id="Ellipse_20" data-name="Ellipse 20" cx="5" cy="5" r="5" transform="translate(8.059 32)" fill="#212121"/>
+    <circle id="Ellipse_21" data-name="Ellipse 21" cx="5" cy="5" r="5" transform="translate(29 32)" fill="#212121"/>
+  </g>
+</svg>

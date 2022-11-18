@@ -1,0 +1,59 @@
+// Font Variables -------- fm - Font Family -- fs - Font Size -- fw - Font Weight -------
+
+$fm-body : 'Work Sans',
+sans-serif;
+
+$fm-primary : 'Roboto',
+sans-serif;
+
+$fs-h1 : 6.2rem;
+$fs-h2 : 4.2rem;
+$fs-h3 : 2.8rem;
+$fs-h4 : 1.8rem;
+$fs-h5 : 1.5rem;
+$fs-h6 : 1.2rem;
+
+$fs-btn : 1.4rem;
+$fs-body : 1.8rem;
+$fs-icons : 1.2rem;
+$fs-topbar : 1.2rem;
+$fs-subheading : 1.5rem;
+
+// -- Line Height - lh -------------------------------------------------------------------
+
+$lh-body : 1.7;
+$lh-heading : 1.2;
+
+// Color Variables -----------------------------------------------------------------------
+
+$color-scrollbar : #eee;
+$color-scrollThumb : #777;
+
+$color-primary : #777777;
+$color-secondary : #121212;
+
+$color-light-100 : #ffffff;
+$color-light-200 : #f8f8f8;
+$color-light-400 : #eeeeee;
+$color-light-800 : #e0e0e0;
+
+$color-Dark-100 :#222222;
+$color-Dark-400 : #121212;
+$color-Dark-800 : #000000;
+
+$color-footerBar : #e3e3e3;
+
+$color-body : #383838;
+
+// Dimensions Variables ------------------------------------------------------------------
+
+$width-container : 1200px;
+$section-padding : 8rem;
+
+// Box Shadow ----------------------------------------------------------------------------
+
+$box-shadow-lg: 0 1rem 3rem rgba(black, .175);
+$box-shadow-md: 0 .5rem 1rem rgba(black, .15);
+$box-shadow-sm: 0 .125rem .25rem rgba(black, .075);
+
+// ----------------------------------------------------------------------------

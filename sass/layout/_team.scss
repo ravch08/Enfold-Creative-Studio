@@ -1,0 +1,62 @@
+@use './../abstracts/helper'as *;
+
+.team {
+   margin: 10rem 0;
+}
+
+.team-wrapper {
+   @extend .flexRow-between;
+
+   .team-item {
+      margin: 0.6rem 0;
+      @extend.flexColumn-between;
+   }
+
+   .arrow-up {
+      margin-bottom: 5rem;
+      animation: avia_fade_move_up 2s ease-in-out infinite;
+   }
+
+   .arrow-down {
+      margin-top: 5rem;
+      animation: avia_fade_move_down 2s ease-in-out infinite;
+   }
+
+   img {
+      width: 100%;
+   }
+
+   figure {
+      overflow: hidden;
+      height: 40rem;
+   }
+
+   .team-content {
+      height: 40rem;
+      padding: 3rem;
+      text-align: center;
+      @extend .flexColumn-center;
+
+      span {
+         font-weight: 100;
+         margin-top: 1rem;
+      }
+
+      .horz-line {
+         width: 10rem;
+         height: 0.2rem;
+         margin: 2.5rem auto;
+         background-color: $color-Dark-800;
+      }
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .team-wrapper {
+      flex-direction: column;
+   }
+
+   .section-heading {
+      text-align: center;
+   }
+}

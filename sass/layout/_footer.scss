@@ -1,0 +1,61 @@
+@use "../abstracts/helper"as *;
+
+footer {
+   padding: 6rem 0;
+   background-color: $color-footerBar;
+
+   h2 {
+      font-weight: 400;
+      font-size: $fs-h4;
+   }
+
+   .ftr-wrapper {
+      flex-wrap: wrap;
+      @extend .flexRow-start;
+   }
+
+   .ftr-list {
+      padding: 3rem;
+   }
+}
+
+.scrollTop {
+   right: 5%;
+   bottom: 3%;
+   width: 5rem;
+   height: 5rem;
+   cursor: pointer;
+   position: fixed;
+   border-radius: 50%;
+   transform: scale(0);
+   @extend .flexRow-center;
+   box-shadow: $box-shadow-md;
+   background-color: $color-Dark-400;
+   transition: transform 0.3s ease-in-out;
+
+   svg {
+      fill: white;
+      transform: translateY(-0.2rem);
+   }
+
+   &.show {
+      transform: scale(1.0);
+   }
+}
+
+@media screen and (max-width: 576px) {
+
+   footer {
+
+      .ftr-list {
+         width: 100%;
+      }
+   }
+}
+
+@media screen and (min-width: 1200px) {
+
+   footer .ftr-list {
+      width: 32%;
+   }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="40" viewBox="0 0 34 40">
+  <g id="lock" transform="translate(-7 -1)">
+    <path id="Path_20" data-name="Path 20" d="M15,19V12a9,9,0,0,1,18,0v7h2V12a11,11,0,0,0-22,0v7Z" fill="#212121"/>
+    <path id="Path_21" data-name="Path 21" d="M39,21H9a2,2,0,0,0-2,2V45a2,2,0,0,0,2,2H39a2,2,0,0,0,2-2V23A2,2,0,0,0,39,21ZM25,36.9V41H23V36.9a5,5,0,1,1,2,0Z" transform="translate(0 -6)" fill="#212121"/>
+  </g>
+</svg>

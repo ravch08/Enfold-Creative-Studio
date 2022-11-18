@@ -1,0 +1,69 @@
+@use './../abstracts/helper'as *;
+
+
+.contact {
+   background-color: $color-light-200;
+}
+
+.contact-wrapper {
+   flex-wrap: wrap;
+   @extend .flexRow-start;
+
+   form {
+      width: 50%;
+      @extend .flexColumn-start;
+   }
+
+   .contact-address {
+      width: 40%;
+      flex-wrap: wrap;
+      margin-left: 8rem;
+      @extend .flexRow-start;
+
+      h3 {
+         font-weight: 100;
+         margin-bottom: 1rem;
+      }
+   }
+
+   .contact-item {
+      margin: 2rem 1rem;
+   }
+
+   textarea,
+   input[type="email"],
+   input[type="text"] {
+      padding: 1.4rem;
+      margin: 1rem 0;
+      border: 0.2rem solid $color-Dark-800;
+   }
+
+   .btn-outline {
+      margin: 1rem 0;
+      cursor: pointer;
+      width: fit-content;
+      padding: 1.4rem 3.6rem;
+      background-color: $color-light-100;
+      border: 0.2rem solid $color-Dark-800;
+      transition: background-color 0.3s ease-in-out;
+
+      &:hover {
+         background-color: $color-light-200;
+      }
+   }
+}
+
+@media screen and (max-width: 840px) {
+
+   .contact-wrapper {
+
+      form {
+         width: 100%;
+      }
+
+      .contact-address {
+         width: 100%;
+         margin: 5rem 0 2rem;
+      }
+   }
+}
